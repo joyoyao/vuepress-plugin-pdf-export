@@ -1,0 +1,20 @@
+{
+  "name": "vuepressdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:export": "vuepress export docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-search": "^1.5.4",
+    "vuepress": "^1.5.4",
+    "pdfjs": "^2.4.1",
+    "puppeteer": "^3.3.0"
+  },
+  "dependencies": {}
+}
